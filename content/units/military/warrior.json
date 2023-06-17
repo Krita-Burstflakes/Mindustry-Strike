@@ -1,0 +1,37 @@
+{	
+	"name": "Воин"
+	"description": "Рубит врагов своим лезвием. Имеет высокую скорость и среднее здоровье."
+	"type": "mech"
+	"health": 100
+	"speed": 1.5
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 1
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashRange": 5
+	"outlineColor": "222222"
+	"weapons": [	
+		{	
+		"name": "warrior-turret"
+		"mirror": false
+		"rotate": false
+		"reload": 25
+		"x": 0
+		"y": 0
+		"shootSound": "shootGun"
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "4"
+            "speed": "2"
+            "damage": 10
+			"spin": 26
+			"width": 55
+			"height": 55
+            "sprite": "ms-warrior-turret-sword"
+			}
+		}
+	]
+}

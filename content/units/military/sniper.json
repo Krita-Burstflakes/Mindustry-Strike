@@ -1,0 +1,35 @@
+{	
+	"name": "Снайпер"
+	"description": "Использует дальнобойную винтовку с большим уроном, маленькой перезарядкой, и имеет маленькую скорость и здоровье"
+	"type": "mech"
+	"health": 75
+	"speed": 0.5
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 1
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashRange": 5
+	"outlineColor": "222222"
+	"weapons": [	
+		{	
+		"name": "sniper-turret"
+		"mirror": false
+		"rotate": false
+		"reload": 200
+		"x": 0
+		"y": 3
+		"shootSound": "shootAlt"
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "5"
+            "speed": "60"
+            "damage": "25"
+            "frontColor": "b7b8c5"
+            "backColor": "6e7080"
+			}
+		}
+	]
+}

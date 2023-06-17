@@ -1,0 +1,43 @@
+{	
+	"name": "Танк"
+	"description": "Окружён защитным полем поглощающим пули. Имеет высокий урон и маленькую скорость."
+	"type": "mech"
+	"health": 100
+	"speed": 0.5
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 1
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashRange": 5
+	"outlineColor": "222222"
+	"weapons": [	
+		{	
+		"name": "tank-turret"
+		"mirror": false
+		"rotate": false
+		"reload": 30
+		"x": 0
+		"y": 4
+		"shootSound": "cannon"
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "3"
+            "speed": "20"
+            "damage": 5
+			}
+		}
+	]
+	"abilities": [
+		{
+			"type": "ForceFieldAbility"
+			"radius": 30
+			"regen": 0.05
+			"cooldown": 300
+			"max": 50
+			"sides": 8
+		}
+	]
+}

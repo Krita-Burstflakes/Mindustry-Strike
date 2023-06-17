@@ -1,0 +1,25 @@
+{	
+	"name": "Инженер"
+	"description": "Каждые 30 секунд собирает турель для защиты базы."
+	"type": "mech"
+	"health": 100
+	"speed": 1
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 1
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashRange": 5
+	"outlineColor": "222222"
+	"buildSpeed": 0.1
+	"abilities": [	
+		{	
+			"type": "UnitSpawnAbility"
+			"spawnY": -3
+			"unit": "turret"
+			"spawnTime": 1800
+		}
+	]
+}

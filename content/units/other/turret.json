@@ -1,0 +1,36 @@
+{	
+	"name": "Турель"
+	"description": "Создаётся инженером для защиты базы."
+	"type": "legs"
+	"health": 100
+	"speed": 0
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 6
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashDamage": 25
+	"legSplashRange": 5
+	"outlineColor": "222222"
+
+	"weapons": [	
+		{	
+		"name": "turret-gun"
+		"mirror": false
+		"rotate": false
+		"reload": 60
+		"x": 0
+		"y": 0
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "20"
+            "speed": "5"
+            "damage": "10"
+            "frontColor": "b7b8c5"
+            "backColor": "6e7080"
+			}
+		}
+	]
+}

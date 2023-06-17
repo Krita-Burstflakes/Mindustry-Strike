@@ -1,0 +1,35 @@
+{	
+	"name": "Пулемётчик"
+	"description": "Использует скорострельную винтовку с высокой скоростью и низким уроном. имеет среднее здоровье и высокую скорость"
+	"type": "mech"
+	"health": 100
+	"speed": 1.5
+	"rotateSpeed": 5
+	"hitSize": 8
+	"legCount": 1
+	"legLength": 10
+	"legBaseOffset": 0
+	"legExtension": -5
+	"legSpeed": 1
+	"legSplashRange": 5
+	"outlineColor": "222222"
+	"weapons": [	
+		{	
+		"name": "gunner-turret"
+		"mirror": false
+		"rotate": false
+		"reload": 4
+		"x": 0
+		"y": 3
+		"shootSound": "shootAlt"
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "4"
+            "speed": "20"
+            "damage": "1"
+            "frontColor": "b7b8c5"
+            "backColor": "6e7080"
+			}
+		}
+	]
+}

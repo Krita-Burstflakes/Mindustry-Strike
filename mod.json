@@ -1,0 +1,9 @@
+{
+"name": "ms",
+"displayName": "Mindustry Strike",
+"author": "Krita",
+"description": "Modification based on MSGO",
+"version": "1.0",
+"minGameVersion": "141.3",
+"dependencies": []
+}
